@@ -317,6 +317,7 @@ select {
     display: flex;
     margin-top: 11px;
     justify-content: space-between;
+    padding-inline: 1rem;
 }
 
 .even-para p {
@@ -327,6 +328,7 @@ select {
 
 .chapter-margintop {
     margin-top: 216px;
+    margin-left: 1rem;
 }
 
 .grid-smcont {
