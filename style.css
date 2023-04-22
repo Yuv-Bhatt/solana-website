@@ -204,10 +204,6 @@ select {
     margin-top: 39.59px;
 }
 
-.main-text {
-    padding: 62px 128px;
-}
-
 .even-btn button {
     padding: 10px 21px;
     font-family: var(--ff-primary);
@@ -240,4 +236,13 @@ select {
     background: rgba(240, 135, 255, 0.3);
     filter: blur(210px);
     border-radius: 100px;
+}
+
+@media (max-width: 50em) {
+    .rectangle {
+        display: none;
+    }
+    .main-text {
+        padding: 0;
+    }
 }
