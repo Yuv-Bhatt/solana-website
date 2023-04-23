@@ -590,8 +590,6 @@ footer .even-col {
     gap: 10px;
 }
 
-.sec-col {}
-
 .scol-div {
     display: flex;
     flex-direction: column;
@@ -627,4 +625,65 @@ footer .even-col {
 #sec-col {
     display: flex;
     gap: 20px;
+}
+
+@media(min-width:50em) {
+    .header-secondary .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-block: 20px;
+    }
+    .header-secondary .container .nav-list {
+        display: flex;
+        gap: 30px;
+    }
+    .even-col {
+        display: flex;
+        flex-direction: row;
+    }
+    .effect {
+        position: absolute;
+        right: 0;
+        height: inherit;
+        z-index: 1;
+    }
+    .img-one {
+        z-index: 3;
+    }
+    .main-text {
+        padding-block: 90px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .primary-grid {
+        grid-column: 1/4;
+    }
+    .primary-grid {
+        padding-inline: 70px;
+    }
+    .grid-two {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .equal-div {
+        display: flex;
+        flex-direction: row;
+    }
+    .col-sec .even-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+    .fifth-one .even-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    footer .even-col {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
